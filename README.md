@@ -13,7 +13,6 @@ The project combines:
 - Interactive dashboarding
 - Web application deployment
 
----
 
 ## Business Problem
 Customer churn represents a major challenge for telecom companies because losing customers directly impacts revenue.
@@ -24,7 +23,6 @@ This project aims to:
 - Support decision-making with predictive insights
 - Improve retention strategies
 
----
 
 ## Dataset
 Dataset: Telco Customer Churn Dataset
@@ -40,7 +38,7 @@ Main information:
 Target variable:
 - Churn (Yes / No)
 
----
+
 
 ## Technologies Used
 
@@ -61,7 +59,7 @@ Target variable:
 - Power BI
 - Streamlit
 
----
+
 
 # Workflow
 
@@ -82,7 +80,7 @@ Performed exploratory analysis to understand:
 <img width="990" height="366" alt="image" src="https://github.com/user-attachments/assets/42fd178f-39bf-4d4d-b7cd-b16f8ff57712" />
 
 
----
+
 
 ## 2. Feature Engineering
 Performed:
@@ -102,7 +100,7 @@ Performed:
 - Encoded dataset preview
 <img width="1191" height="264" alt="image" src="https://github.com/user-attachments/assets/20d5101d-3582-45e0-b6b0-68122ceb8ffd" />
 
----
+
 
 ## 3. Machine Learning Modeling
 Models trained and compared:
@@ -123,12 +121,13 @@ Evaluation metrics:
 <img width="531" height="187" alt="image" src="https://github.com/user-attachments/assets/7e200892-cfd8-4ce8-9a1c-2d32283a2681" />
 
 - ROC Curve comparison
-  <img width="715" height="502" alt="image" src="https://github.com/user-attachments/assets/d818115e-c5e1-4efb-bfa3-e763ade32d50" />
+<img width="715" height="502" alt="image" src="https://github.com/user-attachments/assets/d818115e-c5e1-4efb-bfa3-e763ade32d50" />
+
 - Final Model - Classification Report
 <img width="423" height="217" alt="image" src="https://github.com/user-attachments/assets/f83180a1-b6e7-406f-bd1d-73e23a6b74f8" />
 
 
----
+
 
 ## 4. Power BI Dashboard
 Developed an interactive dashboard for churn monitoring.
@@ -145,7 +144,6 @@ Dashboard sections:
 <img width="1207" height="671" alt="image" src="https://github.com/user-attachments/assets/b4d144c9-0b20-4188-975a-fccce2f35813" />
 
 
----
 
 ## 5. Streamlit Web Application
 Built a Streamlit web application for real-time churn prediction.
@@ -161,7 +159,7 @@ Main functionalities:
 <img width="1871" height="832" alt="image" src="https://github.com/user-attachments/assets/51695c70-a17e-4d79-89b9-a00229ddf062" />
 
 
----
+
 
 ## Results
 Key achievements:
@@ -170,7 +168,7 @@ Key achievements:
 - Built a business-oriented dashboard
 - Deployed a predictive web application
 
----
+
 
 ## Installation
 
@@ -178,7 +176,6 @@ Key achievements:
 ```bash
 git clone https://github.com/Korotoumou07/telco-customer-churn-analysis.git
 ````
-
 ### Navigate into the project folder
 
 ```bash
@@ -192,12 +189,11 @@ pip install -r requirements.txt
 ```
 
 ### Run Streamlit App
-
 ```bash
 streamlit run app.py
 ```
 
----
+
 
 ## Future Improvements
 
